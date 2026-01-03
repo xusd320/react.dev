@@ -35,7 +35,7 @@
     "classnames": "^2.2.6",
     "debounce": "^1.2.1",
     "github-slugger": "^1.3.0",
-    "next": "16.1.0-canary.31",
+    "next": "file:/Users/xusd320/Codes/github/next.js/packages/next",
     "next-remote-watch": "^2.0.0",
     "parse-numeric-range": "^1.2.0",
     "react": "^19.0.0",
@@ -115,5 +115,12 @@
     "*.{js,ts,jsx,tsx,css}": "yarn prettier",
     "src/**/*.md": "yarn fix-headings"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@1.22.22",
+  "resolutions": {
+    "next": "file:/Users/xusd320/Codes/github/next.js/packages/next",
+    "@next/mdx": "file:/Users/xusd320/Codes/github/next.js/packages/next-mdx",
+    "@next/env": "file:/Users/xusd320/Codes/github/next.js/packages/next-env",
+    "@next/bundle-analyzer": "file:/Users/xusd320/Codes/github/next.js/packages/next-bundle-analyzer",
+    "postcss": "^8.4.5"
+  }
 }
